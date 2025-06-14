@@ -1,0 +1,49 @@
+.quiz {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 500px;
+}
+
+.question p {
+    color: blue;
+    margin-right: 15px;
+}
+
+.answer p {
+    background-color: blue;
+    width: max-content;
+    color: aliceblue;
+    padding: 3px;
+    border: 1px blue solid;
+    border-radius: 50px;
+}
+
+p.correct {
+    background-color: lime;
+    color: aliceblue;
+    padding: 3px;
+    border: 1px lime solid;
+    border-radius: 50px;
+}
+
+p.incorrect {
+    background-color: red;
+    color: aliceblue;
+    padding: 3px;
+    border: 1px red solid;
+    border-radius: 50px;
+}
+
+.comment {
+    display: none;
+    color: blue;
+}
+
+.next {
+    display: none;
+    background-color: lime;
+    border: 3px lightgreen solid;
+    border-radius: 5px;
+    color: aliceblue;
+}
