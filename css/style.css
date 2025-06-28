@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    margin-top: 250px;
+    background-image: url(../img/wall.png);
+    background-size: cover;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 960px;
+    text-align: center;
+    padding: 0 50px 50px;
+    background-color: aliceblue;
+    border: aliceblue 5px solid;
+    border-radius: 15px;
+    box-shadow: 0 0 3rem rgb(0, 0, 0);
+}
+
+h1 {
+    font-family: "Poiret One", sans-serif;
+    margin-bottom: 50px;
+}
+
+.start {
+    background-color: black;
+    color: white;
+    font-family: "Poiret One", sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    border: 5px black solid;
+    text-decoration: none;
+    padding: 5px 25px;
+    margin: 0px;
+    border-radius: 20px;
+}
+
+.start:hover,
+.answer p:hover,
+.next:hover {
+    color: black;
+    background-color: white;
+    box-shadow: 0 0 2rem rgb(0, 0, 0);
+    border: 5px white solid;
+}
+
+.quiz {
+    display: flex;
+    font-family: "Poiret One", sans-serif;
+    font-weight: 900;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+.question p {
+    color: rgb(0, 0, 0);
+    margin-right: 15px;
+}
+
+.flexans {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.answer p {
+    background-color: rgb(0, 0, 0);
+    width: max-content;
+    color: aliceblue;
+    padding: 5px 25px;
+    margin-bottom: 55px;
+    border: 5px rgb(0, 0, 0) solid;
+    border-radius: 50px;
+}
+
+p.correct {
+    background-color: lime;
+    color: white;
+    padding: 5px 25px;
+    border: 5px lime solid;
+    border-radius: 50px;
+}
+
+p.correct:hover {
+    background-color: white;
+    color: lime;
+    border: 5px white solid;
+    box-shadow: 0 0 2rem rgb(0, 255, 0);
+}
+
+p.incorrect {
+    background-color: red;
+    color: white;
+    padding: 5px 25px;
+    border: 5px red solid;
+    border-radius: 50px;
+}
+
+p.incorrect:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 0, 0);
+    border: 5px white solid;
+    box-shadow: 0 0 2rem rgb(255, 0, 0);
+}
+
+.comment {
+    display: none;
+    color: black;
+    font-size: 20px;
+    margin: 0 0 25px 0;
+}
+
+.next {
+    display: none;
+    margin: 0 auto;
+    font-family: "Poiret One", sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+
+    background-color: rgb(0, 0, 0);
+    border: 5px rgb(0, 0, 0) solid;
+    border-radius: 50px;
+    color: rgb(255, 255, 255);
+    width: 250px;
+    padding: 5px 25px;
+}

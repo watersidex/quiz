@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    margin-top: 250px;
+    background-image: url(../img/music.png);
+    background-size: cover;
+    font-family: "Poiret One", sans-serif;
+}
+
+.wrapper {
+    color: white;
+    margin: 0 auto;
+    max-width: 960px;
+    text-align: center;
+    padding: 0 50px 50px;
+    background-color: rgb(17, 0, 77);
+    border: rgb(17, 0, 77) 5px solid;
+    border-radius: 15px;
+    box-shadow: 0 0 3rem rgb(62, 75, 255);
+}
+
+hr {
+    margin: 30px 15px 15px;
+}
+
+h1 {
+    margin: 22px 0 30px 0;
+}
+
+.answers {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1000px;
+}
+
+.answers span {
+    display: inline-block;
+    width: 40%;
+    margin: 15px;
+    padding: 15px;
+    background-color: #cd8aff;
+    color: white;
+    border: 5px #cd8aff solid;
+    border-radius: 30px;
+}
+
+.btn {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tx {
+    background-color: #8bccfb;
+    width: max-content;
+    color: rgb(255, 255, 255);
+    padding: 9px;
+    margin: 30px 15px;
+    border: 5px #8bccfb solid;
+    border-radius: 50px;
+}
+
+.dis {
+    background-color: #828ec5;
+    width: max-content;
+    color: rgb(255, 255, 255);
+    margin: 30px 15px;
+    border: 5px #828ec5 solid;
+    padding: 9px 45px;
+    border-radius: 50px;
+}
+
+.txx {
+    background-color: #8bccfb;
+    width: max-content;
+    color: rgb(255, 255, 255);
+    margin: 30px 15px;
+    border: 5px #8bccfb solid;
+    padding: 9px 45px;
+    border-radius: 50px;
+}
+
+/*.tx:hover {
+    color: #cd8aff;
+    background-color: white;
+    box-shadow: 0 0 2rem rgb(255, 255, 255);
+    border: 5px white solid;
+}*/
+
+@keyframes wrong {
+    0%, 50%, 75% {
+        background-color: rgb(255, 0, 98);
+    }
+
+    25%, 65%, 100% {
+        background-color: lime;
+    }
+}
